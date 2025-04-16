@@ -97,7 +97,9 @@ public class Welcome {
 
 	public static void menuGuestInfo(String name, int mobile) {
 		System.out.print("현재 고객 정보 : ");
-		System.out.printf("이름: %s 연락처: %d\n", name, mobile);
+//		System.out.printf("이름: %s 연락처: %d\n", name, mobile);
+		Person person = new Person(name, mobile);
+		System.out.println("이름 " + person.getName() + " 연락처 " + person.getPhone());
 	}
 
 	public static void menuCartItemList() {
