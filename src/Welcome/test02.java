@@ -21,5 +21,4 @@ public class test02 {
 	        scanner.close();
 
 	}
-
 }
