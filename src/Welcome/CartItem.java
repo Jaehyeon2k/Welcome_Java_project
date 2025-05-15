@@ -72,5 +72,4 @@ public class CartItem {
 //		totalPrice = Integer.parseInt(this.itemBook[2]) * this.quantity;
 		totalPrice = this.itemBook.getUnitPrice() * this.quantity;
 	}
-
 }
