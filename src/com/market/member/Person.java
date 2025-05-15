@@ -1,4 +1,4 @@
-package Welcome;
+package com.market.member;
 
 public class Person {
 	private String name;
