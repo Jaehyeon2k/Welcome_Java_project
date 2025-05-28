@@ -361,5 +361,4 @@ public class Welcome {
 		} else
 			System.out.println("관리자 정보가 일치하지 않습니다.");
 	}
-
 }
